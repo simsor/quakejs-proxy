@@ -33,7 +33,7 @@ Optional parameters:
 
 Make sure you are using an up-to-date build of ioquake3. The Windows build available on their website is old and doesn't support the new protocol used by QuakeJS. Instructions for building ioquake3 on a modern Windows are available in [BUILDING-IOQUAKE3.md](BUILDING-IOQUAKE3.md).
 
-**Connecting to the proxy server crashes the game on "Downloading gamestate"**
+**Connecting to the proxy server crashes the game on "Awaiting gamestate"**
 
 Make sure your PK3 files match up with the server's. Most QuakeJS servers use Quake 3's demo files, and attempting to join with the full version will crash your game.
 See [GET-DEMO-PK3.md](GET-DEMO-PK3.md) for instructions on how to download the demo PK3 files from a QuakeJS server.
