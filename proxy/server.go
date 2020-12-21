@@ -57,11 +57,7 @@ func (s *SocketServer) Start() error {
 		if err != nil {
 			logrus.WithFields(logrus.Fields{
 				"err": err,
-			}).Error("Could not ReadFromUDP() a connection, removing")
-			a := s.getAgent(addr)
-
-			a.ws.Close()
-			a.running = false
+			}).Error("Could not ReadFromUDP() a connection")
 			continue
 		}
 
